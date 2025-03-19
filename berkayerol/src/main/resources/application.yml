@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=berkayblog"
+      database: "berkayblog"
+      logging:
+        file:
+          name: E:\log\spring-boot-app.log
+          path: E:\log
+          max-size: 50MB
+          max-history: 30
+server:
+  port: 9090
+
